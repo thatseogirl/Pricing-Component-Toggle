@@ -1,0 +1,168 @@
+
+html {
+    scroll-behavior: smooth;
+  }
+body{
+    background-color:  hsl(240, 78%, 98%);
+	position: absolute;
+	top: 0;
+	right: 0;
+	height: 100%;
+	width: 100%;
+	z-index: -1;
+}
+h2{
+    text-align: center;
+    font-size: 25px;
+    padding-top: 60px;
+    font-weight: 700;
+}
+
+#bill{
+    text-align: center;
+    font-size: 13px;
+    font-weight: 500;
+    position: relative;
+    top: 6px;
+}
+.form-check {
+    display: inline-block; 
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+.form-switch .form-check-input{
+    width: 45px;
+    height: 25px;
+    background-color: #8f93ea;
+}
+.container{
+    background-color:  hsl(240, 78%, 98%);
+    background-image: url(./images/bg-top.svg) ,url(./images/bg-bottom.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: top right, bottom left;
+    background-size: 250px;
+    width: 1000px;
+    height: 600px;
+    position: relative;
+    top: 20px;
+}
+.col{
+    border: 2px;
+    border-radius: 10px;
+    position: relative;
+    height: 350px;
+    top: 60px;
+    right: 30px;
+    text-align: center;
+    display: inline-block;
+    font-size: 11px;
+    cursor: pointer;
+}
+hr{
+    width: 180px;
+    position: relative;
+    top: 10px;
+    line-height: 0.8em;
+}
+li{
+    line-height: 0.8em;
+    position: relative;
+    top: 10px;
+    list-style: none;
+    justify-content: center;
+    font-size: 10px;
+    font-weight: 600;   
+}
+
+h5{
+    font-size: 13px;
+    padding-top: 30px;
+    font-weight: 600;
+}
+.annually,
+.monthly{
+    display: inline;
+    font-size: 45px;
+    padding-left: 10px;
+    font-weight: 700;
+    position: relative;
+    top: 10px;
+}
+
+.dollar,
+.dollar-annually {
+    font-size: 25px; 
+    font-weight: 700;
+}
+
+#basic{
+    position: relative;
+    width: 240px;
+    height: 350px;
+    left: 160px;
+    background-color: white;
+    border-radius: 15px;
+}
+#professional {
+    position: relative;
+    width: 240px;
+    height: 350px;
+    left: 68px;
+    background-color: white;
+    border-radius: 15px;
+}
+#master {
+    position: relative;
+    width: 240px;
+    height: 350px;
+    right: 23px;
+    background-color: white;
+    border-radius: 15px;
+} 
+button {
+    color: white;
+    border: 2px;
+    border-radius: 5px;
+    height: 30px;
+    width: 180px;
+    background-color: #8f93ea;
+    opacity: 1;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 600;
+    position: relative;
+    top: 15px; 
+}
+
+.dollar-annually{
+    display: none;
+}
+
+
+@media only screen and (min-width: 320px) and (max-width: 991px){
+.container{
+    width: 100%;
+    height: 1200px;
+    position: absolute;
+}
+    #basic{
+       width: 280px;
+        position: relative;
+        left: 130px; 
+        bottom: 20px;
+        
+    }
+    #professional{
+        width: 280px;
+        position: relative;
+        left: 130px; 
+        bottom: 10px;       
+
+    }
+    #master{
+        width: 280px;
+        position: relative;
+        left: 130px;
+    }
+}

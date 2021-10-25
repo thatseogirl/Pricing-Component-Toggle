@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&display=swap"
+      rel="stylesheet">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Pricing components with toggles</title>
+  </head>
+  <body>
+    <main class="container">
+      <div id="header">
+        <h2> Our Pricing </h2>
+        <div id="bill">
+          <span class="p-2"> Annually </span>
+          <span class="form-check form-switch">
+            <input class="form-check-input" type="checkbox" role="switch"
+              id="flexSwitchCheckChecked" checked></span>
+          <span class="p-3"> Monthly </span>
+        </div>
+      </div>
+
+      <div class="row">
+
+        <div class="col">
+
+          <div class="toggle" id="basic" >
+            <h5> Basic </h5>
+            <p class="dollar-annually"> &dollar;<span class="annually">199.99</span></p>
+            <p class="dollar">&dollar;<span class="monthly">19.99</span></p>
+            <ul>
+              <hr>
+              <li> 500 GB Storage</li>
+              <hr>
+              <li> 2 Users Allowed</li>
+              <hr>
+              <li> Send up to 3 GB</li>
+              <hr>
+            </ul>
+            <button class="toggle-btn"> Learn more</button>
+          </div>
+
+        </div>
+
+        <div class="col">
+
+          <div class="toggle" id="professional" >
+            <h5> Professional </h5>
+            <p class="dollar-annually"> &dollar; <span class="annually">249.99</span></p>
+            <p class="dollar">&dollar;<span class="monthly">24.99</span></p>
+            <ul>
+              <hr>
+              <li> 1 TB Storage</li>
+              <hr>
+              <li> 5 Users Allowed</li>
+              <hr>
+              <li> Send up to 10 GB</li>
+              <hr>
+            </ul>
+            <button class="toggle-btn"> Learn more</button>
+          </div>
+        </div>
+
+        <div class="col">
+
+          <div class="toggle" id="master" >
+            <h5> Master </h5>
+            <p class="dollar-annually">&dollar; <span class="annually">399.99</span></p>
+            <p class="dollar">&dollar;<span class="monthly">39.99</span></p>
+            <ul>
+              <hr>
+              <li> 2 TB Storage</li>
+              <hr>
+              <li> 10 Users Allowed</li>
+              <hr>
+              <li> Send up to 20 GB</li>
+              <hr>
+            </ul>
+            <button class="toggle-btn"> Learn more</button>
+          </div>
+        </div>
+
+      </div>
+
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>
