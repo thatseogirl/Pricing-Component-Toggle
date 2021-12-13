@@ -60,7 +60,7 @@ h2{
     cursor: pointer;
 }
 hr{
-    width: 180px;
+    width: 200px;
     position: relative;
     top: 10px;
     line-height: 0.8em;
@@ -72,7 +72,8 @@ li{
     list-style: none;
     justify-content: center;
     font-size: 10px;
-    font-weight: 600;   
+    font-weight: 600;  
+    right: 15px; 
 }
 
 h5{
@@ -143,7 +144,11 @@ button {
 @media only screen and (min-width: 320px) and (max-width: 991px){
 .container{
     width: 100%;
-    height: 1200px;
+    height: 1300px;
+    position: absolute;
+}
+.row{
+    right: 40%;
     position: absolute;
 }
     #basic{
